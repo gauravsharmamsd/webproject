@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <servlet>
+    <display-name>Login</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.maahi.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/loginpage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>Registration</display-name>
+    <servlet-name>Registration</servlet-name>
+    <servlet-class>com.maahi.Registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Registration</servlet-name>
+    <url-pattern>/registerpage</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <display-name>CustomerServlet</display-name>
+    <servlet-name>CustomerServlet</servlet-name>
+    <servlet-class>com.maahi.CustomerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerServlet</servlet-name>
+    <url-pattern>/CustomerServlet</url-pattern>
+  </servlet-mapping>
+      <servlet>
+    <display-name>DisplayServlet</display-name>
+    <servlet-name>DisplayServlet</servlet-name>
+    <servlet-class>com.maahi.DisplayServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DisplayServlet</servlet-name>
+    <url-pattern>/DisplayServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
